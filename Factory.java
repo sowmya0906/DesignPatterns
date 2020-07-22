@@ -23,7 +23,7 @@ class Rectangle implements Shape{
 	}
 }
 
-public class Factory{
+public class FactoryPattern{
 public static void main(String args[]) {
 	Square s=new Square();
 	s.Draw();
